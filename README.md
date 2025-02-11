@@ -1,8 +1,10 @@
-# React + Vite
+Project Overview
+This is a Job Listing App built with React (Vite), Tailwind CSS, and Context API. It includes:
+Navbar:
+    Job Search: Search jobs by title.
+    Dark Mode: Toggle between Light Mode  and Dark Mode.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Company Filter: Filter jobs by company Name
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Previous Button: Shows Previous 6 Jobs
+NextButton: Shows Next 6 Jobs
