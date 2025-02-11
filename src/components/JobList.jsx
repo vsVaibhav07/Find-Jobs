@@ -59,7 +59,7 @@ const JobList = () => {
         <select
           className="p-2 border rounded-lg w-full md:w-1/2 bg-white text-gray-800 focus:outline-none shadow"
           value={companyFilter}
-          onChange={(e) => setCompanyFilter(e.target.value)}
+          onChange={(e) =>{ setCompanyFilter(e.target.value);setCurrentPage(1)}}
         >
           <option value="">All Companies</option>
           {companies.map((company, index) => (
