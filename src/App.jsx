@@ -12,7 +12,7 @@ function App() {
    <>
    
    <SearchProvider>
-   <div className={`${darkMode?"bg-slate-400 text-white":""}  w-screen h-screen overflow-hidden`}>
+   <div className={`${darkMode?"bg-slate-400 text-white":""}  w-screen h-screen overflowx-hidden`}>
     <Navbar/>
     <JobList/>
    
