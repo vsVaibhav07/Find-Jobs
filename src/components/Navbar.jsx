@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${darkMode ? "bg-slate-800" : "bg-blue-500"} shadow-md px-6 py-3 w-screen text-white overflow-hidden flex justify-between items-center`}>
-      <h1 className="text-2xl font-bold">Jobs For You</h1>
+      <h1 className="hidden sm:block text-2xl font-bold">Jobs For You</h1>
       <input
         type="text"
         placeholder="Search by job title..."
